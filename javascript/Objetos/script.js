@@ -15,12 +15,13 @@ var gato = {
 }
 
 function colorGato(gato){
-    console.log( `El color de Mixi es:` ${gato.color} )
+    console.log( `El color de Mixi es:${gato.color}` )
     return {
         ...gato,
-        color: 'azul';
+        color: 'azul',
     }
 
 }
 colorGato(gato)
 saul.saludar()
+    
