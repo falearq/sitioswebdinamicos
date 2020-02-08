@@ -1,5 +1,6 @@
 //CONDICIONALES//
 var ganados = 0;
+var perdidos = 0;
 
 function volado(){
     var random = Math.random() * 100;
